@@ -1,0 +1,87 @@
+/* conficuração da fontes do site*/
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@800&family=Fjalla+One&family=Inter:wght@100;200;300;400;500;600&family=Lato:wght@300;400;700&family=Noto+Sans:ital,wght@1,600&family=Open+Sans:ital,wght@0,300;0,700;1,400&family=Roboto:wght@400;900&family=Titillium+Web&display=swap');
+
+
+
+/* conficuração das coles */
+:root {
+    --cor1: #5336BF;
+    --cor2: #000000;
+    --cor3: #6F7BBF;
+    --cor4: #C7D9D6;
+    --cor5: #9400D3;
+    --cor6: #7FFFD4;
+    --cor7: #00FA9A;
+    --cor8: #7FFFD4;
+}
+
+
+/* configuração das navergadores */
+* {
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* formatação body */
+body {
+    background-color: var(--cor5);
+}
+
+header {
+    max-width: 95%;
+    height: auto;
+    margin: 0 auto;
+    background-color: var(--cor1);
+    text-align: center;
+    border-radius: 0px 0px 12px 12px;
+    padding-top: 1rem;
+    box-shadow: 0px 4px 3px var(--cor2);
+}
+
+nav li {
+    display: inline-block;
+    margin: 2rem 1rem;
+
+}
+/*cor da letra do celular*/
+nav a {
+    color: var(--cor2);
+    text-align: center;
+
+}
+/*
+nav a:hover {
+    color: var(--cor2);
+    border-bottom: 4px solid;
+}
+
+
+
+
+
+
+
+/* Frormatção dos Cards */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--cor1);
+    width: 100%;
+    height: 70vh;
+}
+
+
+
+
+
+
+
